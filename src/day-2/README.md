@@ -1,0 +1,1 @@
+This challenge sounds a bit harder. Let's see in how much time I can solve it. Okay... It's been a while I didn't use JavaScript... But I solved the first part, alright! Let's take a break.
