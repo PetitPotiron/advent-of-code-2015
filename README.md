@@ -9,4 +9,4 @@ In the `src` folder, there are folders for all days from `day-1` to `day-25`. In
 - `input.txt` is the input with what we are going to work with the code.
 - `output.txt` is the result gotten, once the code has been run.
 
-Keep in mind all this work is under the [MIT License](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/LICENSE). Copyright (c) December 2021 - PetitPotiron
+Keep in mind all this work is under the [MIT License](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/LICENSE). Copyright (c) December 2021 - PetitPotiron.
