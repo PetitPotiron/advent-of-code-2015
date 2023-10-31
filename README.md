@@ -5,7 +5,7 @@ This repository contains my code for the [Advent Of Code](https://adventofcode.c
 In the `src` folder, you can find one folder for each day of the challenge (from `day-1` to `day-25`). In these folders, there are two folders: `first-part` and `second-part` who contain . In these directories, there are four files : 
 - `README.md` where I explain how I solved (or not) the challenge.
 - `challenge.md` is the instructions of the part of the challenge.
-- `main.py`, `index.js`, or `main.rs`. It's the code which completes the challenge, respectively in [Python](https://www.python.org), [JavaScript]([https://en.wikipedia.org/wiki/JavaScript](https://w.wiki/7z9P) or [Rust](https://www.rust-lang.org).
+- `main.py`, `index.js`, or `main.rs`. It's the code which completes the challenge, respectively in [Python](https://www.python.org), [JavaScript](https://w.wiki/7z9P) or [Rust](https://www.rust-lang.org).
 - `input.txt` is the input with what we are going to work with the code.
 - `output.txt` is the result gotten, once the code has been run.
 
