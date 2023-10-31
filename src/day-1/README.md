@@ -1,5 +1,6 @@
-# --- Day 1: Not Quite Lisp ---
+As announced, that challenge **actually** was easy! I solved it quickly. I chose Python as programming language.
 
+# --- Day 1: Not Quite Lisp ---
 Santa was hoping for a white Christmas, but his weather machine's "snow" function is powered by stars, and he's fresh out! To save Christmas, he needs you to collect **fifty stars** by December 25th.
 
 Collect stars by helping Santa solve puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants **one star**. Good luck!
@@ -39,6 +40,14 @@ Your puzzle answer was `1771`.
 If you still want to see it, you can [get your puzzle input](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/src/day-1/second-part/input.txt).
 
 ## How I solved it
+### Part 1
+* Santa begins on floor `0` and then moves. Let's create a `floor = 0` variable to keep track of its level!
+* Now, let's read the instructions with the python `open(filename)` and `file.read()` methods.
+* As Santa goes through one instruction at a time, let's use a `for loop` to iterate over each instruction.
+* If the instruction is `(`, Santa moves up. I then add `1` to the `floor` variable I created.
+* Otherwise, the instruction is obviously `)`. Santa moves then down, so I remove `1` to the `floor` variable.
+* Once this `for loop` is over, it means there are no instructions left and that Santa has finished moving all the time ! I can then print the `floor` variable which contains the final level !
+### Part 2
 * Santa begins on floor `0` and then moves. Let's create a `floor = 0` variable to keep track of its level!
 * Now, let's read the instructions with the python `open(filename)` and `file.read()` methods.
 * As Santa goes through one instruction at a time, let's use a `for loop` to iterate over each instruction. But as we look for the position of the first instruction which causes Santa to enter the basement, we will use the python `enumerate()` function, which provides the element and its position in the instructions (you'll see later it is useful).
