@@ -1,4 +1,4 @@
---- Day 1: Not Quite Lisp ---
+# --- Day 1: Not Quite Lisp ---
 
 Santa was hoping for a white Christmas, but his weather machine's "snow" function is powered by stars, and he's fresh out! To save Christmas, he needs you to collect **fifty stars** by December 25th.
 
@@ -23,3 +23,10 @@ For example:
 To **what floor** do the instructions take Santa?
 
 To begin, get [your puzzle input](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/src/day-1/first-part/input.txt).
+## How I solved it
+* Santa begins on floor `0` and then moves. Let's create a `floor = 0` variable to keep track of its level!
+* Now, let's read the instructions with the python `open(filename)` and `file.read()` methods.
+* As Santa goes through one instruction at a time, let's use a `for loop` to iterate over each instruction.
+* If the instruction is `(`, Santa moves up. I then add `1` to the `floor` variable I created.
+* Otherwise, the instruction is obviously `)`. Santa moves then down, so I remove `1` to the `floor` variable.
+* Once this `for loop` is over, it means there are no instructions left and that Santa has finished moving all the time ! I can then print the `floor` variable which contains the final level !
