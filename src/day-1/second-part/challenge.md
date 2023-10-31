@@ -24,8 +24,6 @@ To **what floor** do the instructions take Santa?
 
 Your puzzle answer was `138`.
 
-The first half of this puzzle is complete! It provides one gold star: *
-
 ## --- Part Two ---
 Now, given the same instructions, find the position of the first character that causes him to enter the basement (floor -1). The first character in the instructions has position 1, the second character has position 2, and so on.
 
@@ -36,7 +34,9 @@ For example:
 
 What is the position of the character that causes Santa to first enter the basement?
 
-Although it hasn't changed, you can still [get your puzzle input](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/src/day-1/second-part/input.txt).
+Your puzzle answer was `1771`.
+
+If you still want to see it, you can [get your puzzle input](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/src/day-1/second-part/input.txt).
 
 ## How I solved it
 * Santa begins on floor `0` and then moves. Let's create a `floor = 0` variable to keep track of its level!
