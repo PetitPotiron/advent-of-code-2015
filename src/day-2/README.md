@@ -33,8 +33,16 @@ If you still want to see it, you can get your puzzle input.
 
 
 ## How I solved it
+### Part 1
 * First, let's read the list of all the boxes' dimensions with `fs.readFile()`.
 * Those dimensions for each box are separated by a newline, let's create an array of the dimensions separating the boxes' dimensions.
-* Now, let's calculate each side of a box
+* I use a `for loop` to do the following for each box :
+* Now, let's calculate each side of the box
 * Let's add their double to the total area and the minimal value again.
-* Finally, let's do that for each box with a `for loop`.
+
+### Part 2
+* First, let's read the list of all the boxes' dimensions with `fs.readFile()`.
+* Those dimensions for each box are separated by a newline, let's create an array of the dimensions separating the boxes' dimensions.
+* I use a `for loop` to do the following for each box :
+* I calculate the perimeters of each face, and I select the lowest one.
+* Finally I add the volume of the box, for the bow !
