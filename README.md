@@ -10,6 +10,7 @@ In the `src` folder, you can find one folder for each day of the challenge (from
 - `output.txt` is the result gotten, once the code has been run.
 
 Please keep in mind all this work is under the [MIT License](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/LICENSE). Copyright (c) December 2021 - PetitPotiron.
+
 In a nutshell :
 * You can do whatever you want with it, just make sure to include the same `LICENSE` file, and to attribute myself.
 
