@@ -12,3 +12,9 @@ For example:
 All numbers in the elves' list are in feet. How many total **square feet of wrapping paper** should they order?
 
 To begin, get [your puzzle input](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/src/day-2/first-part/input.txt).
+## How I solved it
+* First, let's read the list of all the boxes' dimensions with `fs.readFile()`.
+* Those dimensions for each box are separated by a newline, let's create an array of the dimensions separating the boxes' dimensions.
+* Now, let's calculate each side of a box
+* Let's add their double to the total area and the minimal value again.
+* Finally, let's do that for each box with a `for loop`.
