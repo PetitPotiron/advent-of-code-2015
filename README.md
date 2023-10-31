@@ -7,7 +7,7 @@ In the `src` folder, you can find one folder for each day of the challenge (from
 * * `README.md` are the instructions of the challenge, the explanation of my solutions and my feelings about the problem.
 * * `x-part` contains the solutions for the xth part of the challenge
 * * * `main.py`, `index.js`, or `main.rs`. It's the code which completes the challenge, respectively in [Python](https://www.python.org), [JavaScript](https://w.wiki/7z9P) or [Rust](https://www.rust-lang.org).
-* * * `input.txt` is the input with what we are going to work with the code.
+* * * `input.txt` is the input with what we are going to work with the code (*If the input is the same for both parts, this file is located in the `day-x` folder*).
 * * * `output.txt` is the result obtained, once the code has been run.
   
 
