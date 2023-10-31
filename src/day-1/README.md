@@ -1,1 +1,1 @@
-As announced, that challenge was **really** easy! I solved it in ~ 45 minutes. I chose Python as programming language.
+As announced, that challenge **actually** was easy! I solved it quickly. I chose Python as programming language.
