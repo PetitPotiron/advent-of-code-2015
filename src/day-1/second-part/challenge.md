@@ -39,3 +39,9 @@ What is the position of the character that causes Santa to first enter the basem
 Although it hasn't changed, you can still [get your puzzle input](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/src/day-1/second-part/input.txt).
 
 ## How I solved it
+* Santa begins on floor `0` and then moves. Let's create a `floor = 0` variable to keep track of its level!
+* Now, let's read the instructions with the python `open(filename)` and `file.read()` methods.
+* As Santa goes through one instruction at a time, let's use a `for loop` to iterate over each instruction. But as we look for the position of the first instruction which causes Santa to enter the basement, we will use the python `enumerate()` function, which provides the element and its position in the instructions (you'll see later it is useful).
+* If the instruction is `(`, Santa moves up. I then add `1` to the `floor` variable I created.
+* Otherwise, the instruction is obviously `)`. Santa moves then down, so I remove `1` to the `floor` variable.
+* Now, let's check if Santa is at floor `-1`, the basement! If so, we print the position of the instruction which caused Santa to enter the basement (we then use the `break` keayword to make sure we don't continue to follow the instructions). Else, we continue to loop until it's the case!
