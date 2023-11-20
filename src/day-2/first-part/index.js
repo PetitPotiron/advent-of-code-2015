@@ -3,7 +3,7 @@ const fs = require('fs');
 let boxes = [];
 let total_area = 0;
 
-fs.readFile('./input.txt', 'utf8' , (err, boxes_dimensions_list) => {
+fs.readFile('../input.txt', 'utf8' , (err, boxes_dimensions_list) => {
     boxes = boxes_dimensions_list.split("\n");
     for (box of boxes){
         var dimensions = box.split("x").map(dimension => Number(dimension));
