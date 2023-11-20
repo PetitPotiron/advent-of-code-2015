@@ -1,5 +1,5 @@
 floor = 0
-with open("input.txt","r") as file:
+with open("../input.txt","r") as file:
     for position, instruction in enumerate(file.read()):
         if instruction == "(":
             floor += 1
