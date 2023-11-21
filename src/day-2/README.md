@@ -29,7 +29,7 @@ Your puzzle answer was `3737498`.
 
 **Both parts of this puzzle are complete! They provide two gold stars: \*\***
 
-If you still want to see it, you can get your puzzle input.
+If you still want to see it, you can [get your puzzle input](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/src/day-2/input.txt).
 
 
 ## How I solved it
