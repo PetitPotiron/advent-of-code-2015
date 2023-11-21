@@ -31,8 +31,6 @@ Your puzzle answer was `2341`.
 
 **Both parts of this puzzle are complete! They provide two gold stars: \*\***
 
-At this point, you should return to your Advent calendar and try another puzzle.
-
 If you still want to see it, you can [get your puzzle input](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/src/day-3/input.txt).
 
 ## How I solved it
