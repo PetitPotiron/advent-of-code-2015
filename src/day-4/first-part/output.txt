@@ -1,0 +1,1 @@
+1038736 is the lowest number with wich combines the key to make an MD5 hash starting with 6 zeroes.
