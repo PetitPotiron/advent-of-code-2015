@@ -37,7 +37,7 @@ What is the position of the character that causes Santa to first enter the basem
 
 Your puzzle answer was `1771`.
 
-If you still want to see it, you can [get your puzzle input](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/src/day-1/second-part/input.txt).
+If you still want to see it, you can [get your puzzle input](https://github.com/PetitPotiron/advent-of-code-2015/blob/main/src/day-1/input.txt).
 
 ## How I solved it
 ### Part 1
